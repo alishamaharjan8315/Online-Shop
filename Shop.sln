@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.UI", "Shop.UI\Shop.UI.csproj", "{D279C95F-9EE9-459A-B446-099C79A721BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.UI", "Shop.UI\Shop.UI.csproj", "{D279C95F-9EE9-459A-B446-099C79A721BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Domain", "Shop.Domain\Shop.Domain.csproj", "{313BF56E-23E8-4E8F-A7EB-1F50BB99B9C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Domain", "Shop.Domain\Shop.Domain.csproj", "{313BF56E-23E8-4E8F-A7EB-1F50BB99B9C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Application", "Shop.Application\Shop.Application.csproj", "{F7DB8C71-47BA-41DF-B2A6-3FDCFB8CBF8E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop.Application", "Shop.Application\Shop.Application.csproj", "{F7DB8C71-47BA-41DF-B2A6-3FDCFB8CBF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shop.Database", "Shop.Database\Shop.Database.csproj", "{010EFD4C-2761-4C75-8A2F-CDB233377066}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{F7DB8C71-47BA-41DF-B2A6-3FDCFB8CBF8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7DB8C71-47BA-41DF-B2A6-3FDCFB8CBF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7DB8C71-47BA-41DF-B2A6-3FDCFB8CBF8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010EFD4C-2761-4C75-8A2F-CDB233377066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010EFD4C-2761-4C75-8A2F-CDB233377066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010EFD4C-2761-4C75-8A2F-CDB233377066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010EFD4C-2761-4C75-8A2F-CDB233377066}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

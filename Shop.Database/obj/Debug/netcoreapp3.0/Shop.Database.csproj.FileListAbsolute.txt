@@ -1,0 +1,5 @@
+G:\Learning Projects\Online-Shop\Shop.Database\bin\Debug\netcoreapp3.0\Shop.Database.deps.json
+G:\Learning Projects\Online-Shop\Shop.Database\bin\Debug\netcoreapp3.0\Shop.Database.dll
+G:\Learning Projects\Online-Shop\Shop.Database\obj\Debug\netcoreapp3.0\Shop.Database.AssemblyInfoInputs.cache
+G:\Learning Projects\Online-Shop\Shop.Database\obj\Debug\netcoreapp3.0\Shop.Database.AssemblyInfo.cs
+G:\Learning Projects\Online-Shop\Shop.Database\obj\Debug\netcoreapp3.0\Shop.Database.csprojAssemblyReference.cache

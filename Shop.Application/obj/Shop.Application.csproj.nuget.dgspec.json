@@ -1,17 +1,142 @@
 {
   "format": 1,
   "restore": {
-    "G:\\Learning Projects\\Online-Shop\\Shop\\Shop.Application\\Shop.Application.csproj": {}
+    "G:\\Learning Projects\\Online-Shop\\Shop.Application\\Shop.Application.csproj": {}
   },
   "projects": {
-    "G:\\Learning Projects\\Online-Shop\\Shop\\Shop.Application\\Shop.Application.csproj": {
+    "G:\\Learning Projects\\Online-Shop\\Shop.Application\\Shop.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\Learning Projects\\Online-Shop\\Shop\\Shop.Application\\Shop.Application.csproj",
+        "projectUniqueName": "G:\\Learning Projects\\Online-Shop\\Shop.Application\\Shop.Application.csproj",
         "projectName": "Shop.Application",
-        "projectPath": "G:\\Learning Projects\\Online-Shop\\Shop\\Shop.Application\\Shop.Application.csproj",
+        "projectPath": "G:\\Learning Projects\\Online-Shop\\Shop.Application\\Shop.Application.csproj",
         "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-        "outputPath": "G:\\Learning Projects\\Online-Shop\\Shop\\Shop.Application\\obj\\",
+        "outputPath": "G:\\Learning Projects\\Online-Shop\\Shop.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "G:\\Learning Projects\\Online-Shop\\Shop.Database\\Shop.Database.csproj": {
+                "projectPath": "G:\\Learning Projects\\Online-Shop\\Shop.Database\\Shop.Database.csproj"
+              },
+              "G:\\Learning Projects\\Online-Shop\\Shop.Domain\\Shop.Domain.csproj": {
+                "projectPath": "G:\\Learning Projects\\Online-Shop\\Shop.Domain\\Shop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Learning Projects\\Online-Shop\\Shop.Database\\Shop.Database.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Learning Projects\\Online-Shop\\Shop.Database\\Shop.Database.csproj",
+        "projectName": "Shop.Database",
+        "projectPath": "G:\\Learning Projects\\Online-Shop\\Shop.Database\\Shop.Database.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "G:\\Learning Projects\\Online-Shop\\Shop.Database\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "G:\\Learning Projects\\Online-Shop\\Shop.Domain\\Shop.Domain.csproj": {
+                "projectPath": "G:\\Learning Projects\\Online-Shop\\Shop.Domain\\Shop.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\Learning Projects\\Online-Shop\\Shop.Domain\\Shop.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\Learning Projects\\Online-Shop\\Shop.Domain\\Shop.Domain.csproj",
+        "projectName": "Shop.Domain",
+        "projectPath": "G:\\Learning Projects\\Online-Shop\\Shop.Domain\\Shop.Domain.csproj",
+        "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
+        "outputPath": "G:\\Learning Projects\\Online-Shop\\Shop.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",

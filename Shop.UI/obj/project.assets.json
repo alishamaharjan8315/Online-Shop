@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Learning Projects\\Online-Shop\\Shop\\Shop.UI\\Shop.UI.csproj",
+      "projectUniqueName": "G:\\Learning Projects\\Online-Shop\\Shop.UI\\Shop.UI.csproj",
       "projectName": "Shop.UI",
-      "projectPath": "G:\\Learning Projects\\Online-Shop\\Shop\\Shop.UI\\Shop.UI.csproj",
+      "projectPath": "G:\\Learning Projects\\Online-Shop\\Shop.UI\\Shop.UI.csproj",
       "packagesPath": "C:\\Users\\Asus\\.nuget\\packages\\",
-      "outputPath": "G:\\Learning Projects\\Online-Shop\\Shop\\Shop.UI\\obj\\",
+      "outputPath": "G:\\Learning Projects\\Online-Shop\\Shop.UI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Asus\\AppData\\Roaming\\NuGet\\NuGet.Config",
